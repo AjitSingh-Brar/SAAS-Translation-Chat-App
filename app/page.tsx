@@ -1,7 +1,6 @@
-import Image from "next/image";
 import Link from "next/link";
 
-export default function Home() {
+export default async function Home() {
   return (
     <main className="">
       <div className="relative isolate pt-14 dark:bg-gray-950">
@@ -21,7 +20,7 @@ export default function Home() {
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto max-w-2xl text-center">
               <h1 className="text-4xl font-bold tracking-tight sm:text-6xl">
-                Chat with Anyone, anywhere!
+                Connect with Anyone, anywhere!
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-300">
                 You speak your language, they speak their language.{" "}
