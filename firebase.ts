@@ -4,7 +4,7 @@ import { getFirestore } from "firebase/firestore";
 import { getFunctions } from "firebase/functions";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD3EZ-V8oYRrA-H3sFzOE9fb7p559dwXw4",
+  apiKey: process.env.FIREBASE_CLIENT_KEY,
   authDomain: "saas-translator-app-gt.firebaseapp.com",
   projectId: "saas-translator-app-gt",
   storageBucket: "saas-translator-app-gt.appspot.com",
